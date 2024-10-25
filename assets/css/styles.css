@@ -111,8 +111,10 @@ nav ul li {
 }
 
 .hero img {
-  height: 37.5rem;
-  width: 37.5rem;
+  height: auto;
+  width: 100%;
+  max-width: 37.5rem;
+  object-fit: contain;
 }
 
 .bio {
@@ -369,13 +371,15 @@ footer {
   }
 
   .hero img {
-    height: 37.5rem;
-    width: 30rem;
+    height: auto;
+    width: 100%;
+    max-width: 30rem;
   }
-
+  
   .bio {
-    margin-top: -7rem;
-    width: 20.5rem;
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 20.5rem;
   }
 
   .more-about {
@@ -411,12 +415,14 @@ footer {
 
 @media screen and (max-width: 420px) {
   .hero img {
-    height: 37.5rem;
-    width: 23rem;
+    height: auto;
+    width: 100%;
+    max-width: 23rem;
   }
-
+  
   .bio {
-    width: 18.3rem;
+    width: 100%;
+    max-width: 18.3rem;
   }
 
   .project-container {
